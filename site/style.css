@@ -1,0 +1,57 @@
+
+h4 {
+	font-size: 150%;
+	font-family: times;
+	color: #CC3030
+}
+
+
+h1 {
+	font-size: 80%;
+	font-family: arial, helvetica;
+	font-weight: bold;
+	color: #CC3030 
+}
+
+h2 {
+	font-size: 80%;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	color: #8030E0
+}
+
+
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	color: #CC3030
+}
+
+h5 {
+	font-size: 80%;
+	font-weight: bold;
+	font-family: arial, helvetica;
+	color: #552EFF
+}
+
+
+a {
+	text-decoration: none;
+	color: #CC3030;
+	font-family: arial, helvetica;
+}
+
+a:hover{
+	color: #000000;
+	text-decoration:none;
+	font-family: arial, helvetica;
+	
+}
+
+.s  {
+	color: #ffffff;
+	font-family: arial, helvetica;
+	font-weight: bold;
+}
+

@@ -1,0 +1,10 @@
+<TR>
+	<TD ALIGN=CENTER>
+		<A name="resultats"></a>
+		<IMG SRC="images/os_orange.gif" NOSAVE BORDER=0 HEIGHT=29 WIDTH=40 ALIGN=CENTER>
+		<B><FONT FACE="times" COLOR="#CC3030"SIZE=+2>R&eacute;sultats des soci&eacute;taires</FONT></B>
+		<BR><BR><BR>
+	</TD>
+</TR>
+<TR>
+	<TD ALIGN=CENTER>

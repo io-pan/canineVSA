@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Lionel Rousseau">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.06 [fr] (Win98; I) [Netscape]">
+   <TITLE>Education canine de Ville/s Anjou</TITLE>
+
+	<LINK rel="stylesheet" href="style.css" type="text/css">
+
+</HEAD>
+
+<BODY TEXT="#9BD6AA" BGCOLOR="#FFF1D5" LINK="#8030E0" VLINK="#8030E0" ALINK="#8030E0" leftmargin="0" topmargin="0" rightmargin="0" marginwidth="0" marginheight="0">
+<A NAME="top"></A>
+
+
+<!----------------------------------    s t a r t     o f    F l o a t i n g    D O G    ------------------------------->
+<DIV id="blockD" style="position:absolute; visibility:visible; left:0px; top:0px; z-index:0" width="3" height="36"><IMG SRC="images/Dog_D.gif"  BORDER=0 HEIGHT=36 WIDTH=73></DIV>
+
+<DIV id="blockG" style="position:absolute; visibility:hidden; left:0px; top:0px; z-index:0" width="73" height="36"><IMG SRC="images/Dog_G.gif"  BORDER=0 HEIGHT=36 WIDTH=73></DIV>
+<SCRIPT language=javascript src="dog.js" type=text/javascript></SCRIPT>
+<!----------------------------------    e n d     o f    F l o a t i n g    D O G    ------------------------------->
+
+
+<CENTER><TABLE BORDER=0 WIDTH="95%" HEIGHT="100%" >
+<TR>
+	<TD ALIGN=LEFT>
+		<TABLE width="100%" border="0"><TR>
+		<TD align="left">
+			<IMG SRC="images/tub_Conc.gif" BORDER=0 HEIGHT=50 WIDTH=31>
+		</TD></TR></TABLE>
+	</TD>
+</TR>

@@ -1,0 +1,80 @@
+<html>
+<head>
+<TITLE>Education canine de Ville/s Anjou</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+      <link rel="stylesheet" href="style.css" type="text/css">
+
+<script language="JavaScript">
+<!--
+function Is() {
+    var agent   = navigator.userAgent.toLowerCase();
+    this.major  = parseInt(navigator.appVersion);
+    this.minor  = parseFloat(navigator.appVersion);
+    this.ns     = ((agent.indexOf('mozilla')   != -1) &&
+                  (agent.indexOf('spoofer')    == -1) &&
+                  (agent.indexOf('compatible') == -1) &&
+                  (agent.indexOf('opera')      == -1) &&
+                  (agent.indexOf('webtv')      == -1));
+    this.ns2    = (this.ns && (this.major      ==  2));
+    this.ns3    = (this.ns && (this.major      ==  3));
+    this.ns4    = (this.ns && (this.major      ==  4));
+    this.ns6    = (this.ns && (this.major      >=  5));
+    this.ie     = (agent.indexOf("msie")       != -1);
+    this.ie3    = (this.ie && (this.major      <   4));
+    this.ie4    = (this.ie && (this.major      ==  4) &&
+                  (agent.indexOf("msie 5.0")   == -1));
+    this.ie5    = (this.ie && (this.major      ==  4) &&
+                  (agent.indexOf("msie 5.0")   != -1));
+    this.ieX    = (this.ie && !this.ie3 && !this.ie4);
+}
+
+var is = new Is();
+//-->
+</script>
+</head>
+<body bgcolor="#9BD6AA" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onResize="history.go(0)">
+
+<script language="javascript">
+	    if(is.ns4||is.ns6)
+	    {
+	        available_width=innerWidth;
+	        available_height=innerHeight;
+	    }
+	    else if(is.ie4||is.ie5)
+	    {
+	        available_width=document.body.clientWidth;
+	        available_height=document.body.clientHeight;
+	    }
+
+	    if(is.ie4 ||is.ie5||is.ns6|| is.ns4)
+	    {
+			fond_height = (available_height*1.00+20);
+			hist_x		= (available_height*0.00);
+			bure_x		= (available_height*0.08);
+			situ_x		= (available_height*0.18);
+			inst_x		= (available_height*0.30);
+			acti_x		= (available_height*0.44);
+			fonc_x		= (available_height*0.58);
+			conc_x		= (available_height*0.76);
+			cont_x		= (available_height*0.92);
+
+
+			var fond	= '<DIV  style="position:absolute; visibility:visible; left:00px; 	top:0px; 			z-index:1"  WIDTH="150" HEIGHT="' + fond_height + '"><IMG  src="images/fond-menu.gif"  WIDTH="150" HEIGHT="' + fond_height + '"></DIV>';
+			var hist	= '<DIV  style="position:absolute; visibility:visible; left:60px; 	top:' + hist_x + '; 	z-index:2" ><FONT face="arial, helvetica"  size="2"><A HREF="_histori.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Historique</B></A></FONT></DIV>';
+			var bure	= '<DIV  style="position:absolute; visibility:visible; left:25px; 	top:' + bure_x + '; 	z-index:3" ><FONT face="arial, helvetica"  size="2"><A HREF="_bureau.htm"  target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Bureau</B></A></FONT></DIV>';
+			var situ	= '<DIV  style="position:absolute; visibility:visible; left:10px; 	top:' + situ_x + '; 	z-index:4" ><FONT face="arial, helvetica"  size="2"><A HREF="_situati.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Situation</B></A></FONT></DIV>';
+			var inst	= '<DIV  style="position:absolute; visibility:visible; left:00px; 	top:' + inst_x + '; 	z-index:5" ><FONT face="arial, helvetica"  size="2"><A HREF="_install.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Installations</B></A></FONT></DIV>';
+			var acti	= '<DIV  style="position:absolute; visibility:visible; left:00px; 	top:' + acti_x + '; 	z-index:6" ><FONT face="arial, helvetica"  size="2"><A HREF="_activit.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Activit&eacute;s</B></A></FONT></DIV>';
+			var fonc	= '<DIV  style="position:absolute; visibility:visible; left:10px; 	top:' + fonc_x + '; 	z-index:7" ><FONT face="arial, helvetica"  size="2"><A HREF="_fonctio.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Fonctionnement</B></A></FONT></DIV>';
+			var conc	= '<DIV  style="position:absolute; visibility:visible; left:35px; 	top:' + conc_x + '; 	z-index:8" ><FONT face="arial, helvetica"  size="2"><A HREF="_concours.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Concours</B></A></FONT></DIV>';
+			var cont	= '<DIV  style="position:absolute; visibility:visible; left:60px; 	top:' + cont_x + '; 	z-index:9" ><FONT face="arial, helvetica"  size="2"><A HREF="_contact.htm" target="Page"><IMG src="images/step_dog0H.gif" align=center  border="0" alt="">&nbsp;<B>Contacts</B></A></FONT></DIV>';
+
+			var men= fond+hist+bure+situ+inst+acti+fonc+conc+cont;
+			document.write(men);
+		}
+
+	</script>
+
+</body>
+</html>
